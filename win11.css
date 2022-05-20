@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   /* background-image: url(bg.jpeg);*/
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 110;
+    background-color: #f3f3f3;
+}
+.start{
+    position: absolute;
+    left: 590px;
+    width: 36px;
+    padding-top: 4px;
+}
+
+.start:hover{
+    border: 2px solid rgb(189, 176, 176);
+    cursor: pointer;
+}
+.right{
+    position: absolute;
+    right: 0;
+    height: 85%;
+    margin: 6px 0;
+}
+.startmenu{
+    position:absolute;
+     /*bottom: 50px; */
+     bottom: -650px;
+    width: 100%;
+    
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.startmenu img{
+    border-radius: 10px;
+}
+
+.msicon{
+    position: absolute;
+    left: 510px;
+    top: 170px;
+}
+
+.msicon:hover{
+    border: 2px solid rgb(168, 157, 157);
+    cursor: pointer;
+}
+
+/* Icons Section*/
+.icons{
+    z-index:120 ;
+    position:fixed;
+    color: rgb(69, 64, 64);
+    margin-left: 15px;
+}
+.icons img{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.icons pre{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icons .chrome{
+    position: relative;
+    right: 20px;
+}
+
+.msOffice {
+    position: fixed;
+    margin-left: 380px;
+    margin-top: 35px;
+    /*bottom: 100px; */
+    bottom: 840px;
+}
+
+.cancel{
+    width: 20px;
+    position:absolute;
+    left: 729px;
+    top: 1px;
+    background-color: white;
+    
+    
+} 
+.cancel:hover{
+    background-color: red;
+}
+
+
